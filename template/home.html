@@ -1,0 +1,28 @@
+<div ng-controller="HomeCtrl">
+    <div class="logo row">
+        <div class="col-md-8 col-md-offset-2">
+            <img src="img/car_1_logo.png" class="mainLogo col-md-offset-1">
+        </div>
+    </div>
+
+    <div class="mainInput row">
+        <div class="col-md-8 col-md-offset-2">
+            <form role="form"  ng-submit="submit()">
+                <div class="form-group ">
+                    <input type="text" class="form-control custom-border" placeholder="VIN" ng-model="text" name="text">
+                </div>
+                <div class="form-group">
+                    <div class="col-md-offset-5">
+                        <button type="submit" id="submit" value="Submit" class="btn-success btn btn-lg custom-border">Знайти</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div class="result row">
+        <div class="col-md-8 col-md-offset-2 border">
+            <pre>list={{list}}</pre>
+        </div>
+    </div>
+</div>

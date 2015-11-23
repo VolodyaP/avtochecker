@@ -1,0 +1,15 @@
+.custom-margin {
+    margin-top: 70px;
+}
+
+.border {
+    border: 1px solid #ccc;
+}
+
+.custom-border {
+    border-radius: 0 !important;
+}
+.mainLogo {
+    width: 600px;
+    height: 350px;
+}
